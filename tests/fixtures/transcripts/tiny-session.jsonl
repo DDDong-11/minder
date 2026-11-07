@@ -1,0 +1,3 @@
+{"type":"user","uuid":"u1","sessionId":"tiny-session","cwd":"/repo/demo","timestamp":"2026-11-08T01:00:00.000Z","message":{"role":"user","content":"hello"}}
+{"type":"assistant","uuid":"a1","sessionId":"tiny-session","cwd":"/repo/demo","timestamp":"2026-11-08T01:00:01.000Z","message":{"role":"assistant","content":[{"type":"text","text":"hi"}]}}
+{"type":"system","uuid":"s1","sessionId":"tiny-session","timestamp":"2026-11-08T01:00:02.000Z"}
