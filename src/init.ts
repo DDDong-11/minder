@@ -118,7 +118,7 @@ export async function interactivePrompt(ctx: {
   if (p.isCancel(polishEnabled)) { p.cancel("Init cancelled"); process.exit(1); }
 
   const polishAgent = await p.text({
-    message: "Polish agent name",
+    message: "herdr agent kind for polish (for example claude)",
     initialValue: "claude",
   });
   if (p.isCancel(polishAgent)) { p.cancel("Init cancelled"); process.exit(1); }
